@@ -162,3 +162,12 @@ String myName = 'antônio'; //idioma variável//
 ```
 
 *importante: no java, para representarmos números grandes, se torna desnecessário o uso de virgulas ou pontos, porém, quando devemos adicionar vírgula no idioma português convencional, usamos o ponto. Ex.: Representar o número 2340 (java) = 2,340 (comum) // 2.5 (java) = 2,5 (comum)
+
+## Variáveis e Constantes
+*importante: uma constante são valores armazenados em memória que não podem ser modificados depois de declarados. No java, esses valores são representados pela palavra reservada **final**, seguida de um tipo definido. Por convenção, as constantes são escritas em **uppercase**.
+
+```php
+// utilizando final ///
+final double NUMEROPI = 3.14;
+```
+
