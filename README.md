@@ -140,3 +140,25 @@ String myName = 'antônio'; //idioma variável//
 ```
 
 # Tipos e variáveis
+⇒ existem algumas palavras reservadas para a representação dos tipos de dados básicos que precisam ser manipulados para a construção de programas (tipos primitivos).
+
+- byte (-128) - 1 byte
+- short (-32.768) - 2 bytes
+- int (-2.147.483.648) - 4 bytes
+- long (-9.223.372.036.854.775.808) - 8 bytes
+
+⇒ se tornou desnecessário utilizar os tipos **short** e **byte**, pois não precisamos nos preocupar tanto assim com o espaço de memória reduzida.
+
+- float (-3,40228E + 38) - 4 bytes
+- double (-1,7976E + 308) - 8 bytes
+- boolean
+- char
+
+⇒ apesar do tipo **float** ocupar metade da memória consumida do que um tipo double, ele é menos utilizado. ele sofre de uma limitação que compromete seu uso em determindadas situações: somente mantém uma precisão decimal entre 6 e 7 dígitos.
+
+```php
+// estrutura padrão de declaração de variável //
+<tipo> <nomeVariável> <atribuiçãoDeValorOpcional>
+```
+
+*importante: no java, para representarmos números grandes, se torna desnecessário o uso de virgulas ou pontos, porém, quando devemos adicionar vírgula no idioma português convencional, usamos o ponto. Ex.: Representar o número 2340 (java) = 2,340 (comum) // 2.5 (java) = 2,5 (comum)
