@@ -226,3 +226,30 @@ int notaAluno = 6;
 String resultado = (notaAluno >= 6) ? "Aprovado" : "Reprovado";
 ```
 *Legenda: Definir a nota do aluno na variável "notaAluno", criando uma outra variável "resultado" para demonstrar a situação final do aluno. Dizemos: se a notaAluno for maior ou igual a 6, resultado Aprovado, se a notaAluno **não** for maior/igual a 6, resultado Reprovado.
+
+### Operadores Relacionais
+=> avaliam a relação entre duas variáveis ou expressões. Mais precisamente, definem se o operando à esquerda é igual, diferente, menor, menor ou igual, maior ou maior ou igual ao da direita, retornando um valor booleano (true ou false) como resultado.
+- (==) se é igual
+- (!=) se é diferente
+- (>) se é maior que
+- (>=) se é maior ou igual que
+- (<) se é menor que
+- (<=) se é menor ou igual que
+
+```php
+//exemplo//
+int numeroUm = 3;
+int numeroDois = 2;
+
+if (numeroUm < numeroDois) {
+    System.out.print("Essa condição é falsa.");
+} else {
+    System.out.print("Essa condição é verdadeira");
+}
+```
+*importante: '.equals' compara se dois **objetos** (não números) são iguais;
+
+### Operadores Lógicos
+=> permite criar expressõe lógicas maiores a partir de junção de duas ou mais expressões.
+- (&&) = E
+- (||) = OU
