@@ -214,3 +214,15 @@ System.out.print(- numero); //intenção inicial de tornar a variável negativa/
 numero = - numero; //forma correta de torna-la negativa//
 numero = numero * -1; //forma de tornar o número positivo novamente//
 ```
+### Operador Ternário
+=> definir uma condição e escolher por um valor dentre duas opções. Esse é como se fosse um IF, porém, de uma forma em que toda a sua estrutura estará escrita em uma única linha. **(?:)**
+
+```php
+//forma de aplicação//
+<Expressão Condicional> ? <caso condição seja true> : <caso condição seja false>
+
+// exemplo //
+int notaAluno = 6;
+String resultado = (notaAluno >= 6) ? "Aprovado" : "Reprovado";
+```
+*Legenda: Definir a nota do aluno na variável "notaAluno", criando uma outra variável "resultado" para demonstrar a situação final do aluno. Dizemos: se a notaAluno for maior ou igual a 6, resultado Aprovado, se a notaAluno **não** for maior/igual a 6, resultado Reprovado.
