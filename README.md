@@ -197,3 +197,20 @@ int dividir = 15 / 3;
 int modulo = 18 % 3;
 double resultado = (10*10) + (20/4);    
 ```
+
+### Operadores unários
+=> são aplicados juntamente com um outro operador aritimético. Eles realizam alguns trabalhos básicos como **incrementar, decrementar, inverter** valores numéricos e booleanos.
+- (-) Operador unário de valor negativo
+- (+) Operador unário de valor positivo
+- (++) Operador unário de incremento de valor
+- (--) Operador unário de decremento de valor
+- (!) Operador unário lógico de negação
+
+```php
+// exemplo //
+int numero = 5;
+System.out.print(- numero); //intenção inicial de tornar a variável negativa//
+
+numero = - numero; //forma correta de torna-la negativa//
+numero = numero * -1; //forma de tornar o número positivo novamente//
+```
