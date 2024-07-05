@@ -171,3 +171,29 @@ String myName = 'antônio'; //idioma variável//
 final double NUMEROPI = 3.14;
 ```
 
+## Operadores
+são símbolos especiais que tem um significado próprio para a linguagem e estão associados a determiandas ações.
+
+### Operadores de Atribuição
+=> representado pelo símbolo de igualdade **(=)**, utilizado para definir o valor inicial ou sobrescrever o valor de uma variável. 
+
+```php
+// exemplos //
+String nome (=) "Gleyson";
+int idade (=) 22;
+double peso (=) 68.5;
+```
+
+### Operadores Aritméticos
+=> utilizado para realizar operações matemáticas
+*importante: o operador de adição (+), quando utilizado em variáveis do tipo texto, realizará a concatenação dos textos.
+
+```php
+// exemplos //
+double soma = 10.5 + 15.7;
+int subtrair = 113 - 40;
+int multiplicar = 20 * 7;
+int dividir = 15 / 3;
+int modulo = 18 % 3;
+double resultado = (10*10) + (20/4);    
+```
