@@ -253,3 +253,29 @@ if (numeroUm < numeroDois) {
 => permite criar expressõe lógicas maiores a partir de junção de duas ou mais expressões.
 - (&&) = E
 - (||) = OU
+
+# Métodos
+Critérios para definir métodos:
+- Nomeador como verbo
+- Seguir padrão camelCase
+=> Em java não existe o conceito de métodos globais. Todos os métodos são sempre definidos dentro de uma classe. Se questione: qual a proposta principal do método? qual o tipo de retorno esperado após executar o método?
+Se o método não tiver nenhum retorno definido, retornará como "void".
+
+```php
+// exemplo //
+public class myClass {
+    public double somar (int num1, int num2){
+        return ... ;
+    }
+
+    public void imprimir(String texto){
+        // não precisa de return //
+    }
+
+    public double dividir(int dividendo, int divisor) throws Exception {}
+        //throws indica excessão //
+
+    private void metodoPrivado(){}
+    //esse método não pode ser visto por outros//
+}
+```
