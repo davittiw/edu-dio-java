@@ -316,64 +316,64 @@ public class myClass {
 ## Palavras Reservadas da Linguagem
 => São identificadores de uma linguagem que já possuem uma finalidade específica, portanto não podem ser utilizados para nomear variáveis, classes, métodos ou atributos. (há 52 palavras reservadas no java, marcadas com cores)
 
-- *Controle de pacotes*
-    import: importa pacotes ou classes.
-    packge: especifica a que pacote todas as classes de um arquivo pertencem.
+- *Controle de pacotes*</br>
+    import: importa pacotes ou classes.</br>
+    packge: especifica a que pacote todas as classes de um arquivo pertencem.</br>
 
-- *Modificadores de Acesso*
-    public: acesso à qualquer classe
-    private: acesso apenas dentro da classe
-    protected: acesso por classes no mesmo pacote e subclasses
+- *Modificadores de Acesso*</br>
+    public: acesso à qualquer classe</br>
+    private: acesso apenas dentro da classe</br>
+    protected: acesso por classes no mesmo pacote e subclasses</br>
 
-- *Tipos Primitivos*
-    boolean: um valor indicando true ou false
-    byte: um inteiro de 8 bits
-    char: um character unicode
-    double: um número com ponto flutuante
-    float: um número flutuante
-    int: um inteiro de 32 bits
-    long: um inteiro de 64 bits
-    short: um inteiro de 32 bits
-    void: indica que um método não tem retorno de valor
+- *Tipos Primitivos*</br>
+    boolean: um valor indicando true ou false</br>
+    byte: um inteiro de 8 bits</br>
+    char: um character unicode</br>
+    double: um número com ponto flutuante</br>
+    float: um número flutuante</br>
+    int: um inteiro de 32 bits</br>
+    long: um inteiro de 64 bits</br>
+    short: um inteiro de 32 bits</br>
+    void: indica que um método não tem retorno de valor</br>
 
-- *Modificadores de classes*
-    abstract: Define uma classe que não pode ser instanciada diretamente e pode conter métodos abstratos que devem ser implementados por subclasses.
-    class: Declara uma classe em Java.
-    extends: Indica que uma classe herda os campos e métodos de uma superclasse.
-    final: Define constantes, classes que não podem ser estendidas, ou métodos que não podem ser sobrescritos.
-    implements: Indica que uma classe implementa uma interface.
-    interface: Declara uma interface, que pode conter métodos abstratos que qualquer classe que a implemente deve definir.
-    native: indica que um método está escrito em uma linguagem dependente de plataforma
-    new: Cria uma nova instância de uma classe. 
-    static: Define métodos e campos que pertencem à classe em vez de a instâncias da classe.
-    strictfp: usado em frente a método/classe para indicar que os números de ponto flutuante seguirão as regras de ponto flutuante em todas as expressões
-    synchronized: Indica que um método só pode ser acessado por um thread de cada vez.
-    transient: Indica que um campo não deve ser serializado.
-    volatile: Indica que o valor de um campo pode ser mudado por diferentes threads.
+- *Modificadores de classes* </br>
+    abstract: Define uma classe que não pode ser instanciada diretamente e pode conter métodos abstratos que devem ser implementados por subclasses. </br>
+    class: Declara uma classe em Java. </br>
+    extends: Indica que uma classe herda os campos e métodos de uma superclasse. </br>
+    final: Define constantes, classes que não podem ser estendidas, ou métodos que não podem ser sobrescritos.</br>
+    implements: Indica que uma classe implementa uma interface. </br>
+    interface: Declara uma interface, que pode conter métodos abstratos que qualquer classe que a implemente deve definir. </br>
+    native: indica que um método está escrito em uma linguagem dependente de plataforma </br>
+    new: Cria uma nova instância de uma classe. </br>
+    static: Define métodos e campos que pertencem à classe em vez de a instâncias da classe. </br>
+    strictfp: usado em frente a método/classe para indicar que os números de ponto flutuante seguirão as regras de ponto flutuante em todas as expressões </br>
+    synchronized: Indica que um método só pode ser acessado por um thread de cada vez. </br>
+    transient: Indica que um campo não deve ser serializado. </br>
+    volatile: Indica que o valor de um campo pode ser mudado por diferentes threads. </br>
 
-- *Controle de fluxo*
-    break: sai do bloco de código em que está
-    case: executa um bloco de código
-    continue: Pula a execução do código que viria após essa linha e vai para a próxima passagem do loop.
-    default: Executa esse bloco de código caso nenhum dos testes de switch-case seja verdadeiro.
-    do: Executa um bloco de código uma vez, e então realiza um teste em conjunto com o while para determinar se o bloco deverá ser executado novamente.
-    else: Executa um bloco de código alternativo caso o teste if seja falso.
-    for: Usado para realizar um loop condicional de um bloco de código.
-    if: Usado para realizar um teste lógico de verdadeiro ou falso.
-    instanceof: Determina se um objeto é uma instância de determinada classe, superclasse ou interface.
-    return: Retorna de um método sem executar qualquer código que venha depois desta linha (também pode retornar uma variável).
-    switch: Indica a variável a ser comparada nas expressões case.
-    while: Executa um bloco de código repetidamente enquanto a condição for verdadeira.
+- *Controle de fluxo* </br>
+    break: sai do bloco de código em que está </br>
+    case: executa um bloco de código</br>
+    continue: Pula a execução do código que viria após essa linha e vai para a próxima passagem do loop.</br>
+    default: Executa esse bloco de código caso nenhum dos testes de switch-case seja verdadeiro.</br>
+    do: Executa um bloco de código uma vez, e então realiza um teste em conjunto com o while para determinar se o bloco deverá ser executado novamente.</br>
+    else: Executa um bloco de código alternativo caso o teste if seja falso.</br>
+    for: Usado para realizar um loop condicional de um bloco de código.</br>
+    if: Usado para realizar um teste lógico de verdadeiro ou falso. </br>
+    instanceof: Determina se um objeto é uma instância de determinada classe, superclasse ou interface.</br>
+    return: Retorna de um método sem executar qualquer código que venha depois desta linha (também pode retornar uma variável).</br>
+    switch: Indica a variável a ser comparada nas expressões case.</br>
+    while: Executa um bloco de código repetidamente enquanto a condição for verdadeira.</br>
 
-- *Tratamento de erros*
-    assert: Testa uma expressão condicional para verificar uma suposição do programador.
-    catch: Declara o bloco de código usado para tratar uma exceção.
-    finally: Bloco de código, após um try-catch, que é executado independentemente do fluxo de programa     seguido ao lidar com uma exceção.
-    throw: Usado para passar uma exceção para o método que o chamou.
-    throws: Indica que um método pode passar uma exceção para o método que o chamou.
-    try: Bloco de código que tentará ser executado, mas que pode causar uma exceção.
+- *Tratamento de erros*</br>
+    assert: Testa uma expressão condicional para verificar uma suposição do programador.</br>
+    catch: Declara o bloco de código usado para tratar uma exceção. </br>
+    finally: Bloco de código, após um try-catch, que é executado independentemente do fluxo de programa     seguido ao lidar com uma exceção. </br>
+    throw: Usado para passar uma exceção para o método que o chamou. </br>
+    throws: Indica que um método pode passar uma exceção para o método que o chamou.</br>
+    try: Bloco de código que tentará ser executado, mas que pode causar uma exceção.</br>
 
-- *Variáveis de referência*
-    this: Refere-se à instância atual do objeto.
-    super: Refere-se à superclasse imediata.
+- *Variáveis de referência*</br>
+    this: Refere-se à instância atual do objeto. </br>
+    super: Refere-se à superclasse imediata.</br>
     
