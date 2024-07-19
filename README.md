@@ -279,3 +279,36 @@ public class myClass {
     //esse método não pode ser visto por outros//
 }
 ```
+
+# Escopo
+=> É o ambiente em que uma variável pode ser acessada, vai de acordo com o bloco em que ela foi armazenada. Essa variável não pode ser lida ou manipulada por rotinas e códigos que estão fora do seu bloco de declaração;
+=> Caso haja um a variável *declarada dentro de um método*, o escopo dessa variável está limitado apenas ao corpo desse método, ou seja, dentro das chaves que limitam o método.
+
+```php
+    public class Conta {
+        // variável da classe conta //
+        double saldo = 10.0;
+
+        public void sacar (double valor){
+            // variável local de método //
+            double novoSaldo = saldo - valor;
+        }
+        public void imprimirSaldo(){
+            // disponível em toda classe //
+            System.out.print(saldo);
+            //somente o método sacar conhece essa variável//
+            System.out.print(novoSaldo);
+        }
+        public double calcularDividaExponencial(){
+            // variavel local de método//
+            double valorParcela = 50.0;
+            double valorMontante = 0.0;
+            for(int x=1; x<=5; x++){
+                // será reiniciada a cada execução//
+                double valorCalculado = valorParcela * x;
+                valorMontante = valorMontante + valorCalculado;
+            }
+            return valorMontante;
+        }
+    }
+```
