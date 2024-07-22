@@ -377,3 +377,9 @@ public class myClass {
     this: Refere-se à instância atual do objeto. </br>
     super: Refere-se à superclasse imediata.</br>
     
+# Argumentos
+=> Quando um método main é executado, permite que passemos um array [] de argumentos do tipo String. 
+```php
+// exemplo
+java MinhaClasse argumentoUm argumentoDois
+```
